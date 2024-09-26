@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "REM-Medium";
+    src: url(../fonts/REM-Medium.ttf);
+}
+
+
+body {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #332F43;
+}
+
+.logo {
+    margin-top: 59px;
+    text-align: center;
+
+}
+
+.border {
+    padding: 0.5px;
+    background-color: #C4AE65;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
+.text-size-colour {
+    font-family: "REM-Medium";
+    text-align: center;
+    color: #C4AE65;
+}
+
+.name {
+    font-size: 30px;
+    margin-top: 76px;
+}
+
+.designation {
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.mobile-no {
+    font-size: 20px;
+    margin-top: 91px;
+}
+
+.email {
+    font-size: 20px;
+    margin-top: 16;
+}
+
+.button {
+    width: 100% !important;
+    margin-top: 51px;
+}
+
+.action-button {
+    text-align: center;
+    background-color: #C4AE65;
+    border: none;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    padding: 60px;
+}
+
+.button-font {
+    font-family: "REM-Medium";
+    color: #332F43;
+    font-size: 20px;
+    padding-top: 15px !important;
+}
+
+.social {
+    margin-top: 57px;
+    padding-bottom: 20px;
+}
+
+.mt-16 {
+    margin-left: 16px;
+}
+
+.mt-78 {
+    margin-left: 78px;
+}
+
+@media only screen and (max-width:376px) {
+    .action-button {
+        text-align: center;
+        background-color: #C4AE65;
+        border: none;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+        padding: 50px;
+    }
+    .mt-78 {
+        margin-left: 60px;
+    }
+  }
+
+@media only screen and (max-width:321px) { 
+    .email {
+        font-size: 16px;
+        margin-top: 16;
+    } 
+    .action-button {
+        text-align: center;
+        background-color: #C4AE65;
+        border: none;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+        padding: 30px;
+    }
+    .mt-78 {
+        margin-left: 30px;
+    }
+  }   
