@@ -3,7 +3,9 @@
     src: url(../fonts/REM-Medium.ttf);
 }
 
-
+a {
+    text-decoration: none;
+}
 body {
     background-image: url('../img/background.png');
     background-repeat: no-repeat;
